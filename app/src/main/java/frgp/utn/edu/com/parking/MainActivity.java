@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.home_app);
     }
 
-    public void Registrar(View view) {
+    public void Registrar(View view) {;
         EditText et_name = (EditText) findViewById(R.id.editTextName);
         EditText et_email = (EditText) findViewById(R.id.editTextEmail);
         EditText et_pass = (EditText) findViewById(R.id.editTextPass);
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         } else {
-            Toast.makeText(this, "Debes llenar todos lo campos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Debe completar los campos", Toast.LENGTH_SHORT).show();
         }
         db.close();
     }
@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void BuscarUser(View view) {
+
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "administracion", null, 1);
         SQLiteDatabase db = admin.getWritableDatabase();
 

@@ -8,8 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "frgp.utn.edu.com.parking"
-        minSdk = 34
-        targetSdk = 34
+        minSdk = 33
         versionCode = 1
         versionName = "1.0"
 
