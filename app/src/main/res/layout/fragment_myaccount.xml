@@ -25,16 +25,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30px"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+        >
 
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_input_get" />
             <TextView
                 android:id="@+id/txtN"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nombre:  " />
 
             <TextView
                 android:id="@+id/txtNombre"
+                android:textSize="24sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[nombre]" />
@@ -43,27 +51,36 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30px"
-            android:orientation="horizontal">
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+        >
 
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_email" />
             <TextView
                 android:id="@+id/txtM"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Correo:  " />
 
             <TextView
                 android:id="@+id/txtCorreo"
+                android:textSize="28sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[correo]" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/btnLogout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/cerrar_sesion" />
+                android:id="@+id/btnLogout"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cerrar_sesion"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

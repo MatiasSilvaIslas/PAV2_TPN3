@@ -27,7 +27,7 @@ public class MyAccountFragment extends Fragment {
     private View.OnClickListener logoutButtonClickListener = new View.OnClickListener() {
         public void onClick(View v) {
             Intent intent = new Intent(getActivity(), MainActivity.class);
-            Toast.makeText(getActivity(), "Sesión cerrada", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), " Se cerro cerro sesión", Toast.LENGTH_SHORT).show();
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
         }
@@ -43,8 +43,7 @@ public class MyAccountFragment extends Fragment {
         Button logout = (Button)view.findViewById(R.id.btnLogout);
         logout.setOnClickListener(logoutButtonClickListener);
 
-        //TextView textView = binding.tvDataAccount;
-        //galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
 
         TextView txtNombre = (TextView) view.findViewById(R.id.txtNombre);
         TextView txtCorreo = (TextView) view.findViewById(R.id.txtCorreo);
