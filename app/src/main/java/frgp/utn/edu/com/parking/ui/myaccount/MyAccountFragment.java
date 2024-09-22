@@ -13,12 +13,12 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.utn.parkingcontrol.MainActivity;
-import com.utn.parkingcontrol.MainMenuActivity;
-import com.utn.parkingcontrol.PutExtraConst;
-import com.utn.parkingcontrol.R;
-import com.utn.parkingcontrol.User;
-import com.utn.parkingcontrol.databinding.FragmentMyaccountBinding;
+import frgp.utn.edu.com.parking.MainActivity;
+import  frgp.utn.edu.com.parking.PutExtraConst;
+import  frgp.utn.edu.com.parking.R;
+import frgp.utn.edu.com.parking.User;
+import frgp.utn.edu.com.parking.databinding.FragmentMyaccountBinding;
+
 
 public class MyAccountFragment extends Fragment {
 

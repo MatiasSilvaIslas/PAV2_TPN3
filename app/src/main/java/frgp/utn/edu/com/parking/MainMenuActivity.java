@@ -12,10 +12,10 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.utn.parkingcontrol.databinding.ActivityMainMenuBinding;
-import com.utn.parkingcontrol.ui.myaccount.MyAccountFragment;
-import com.utn.parkingcontrol.ui.myaccount.MyAccountViewModel;
-import com.utn.parkingcontrol.ui.parking.ParkingFragment;
+import frgp.utn.edu.com.parking.databinding.ActivityMainMenuBinding;
+import frgp.utn.edu.com.parking.ui.myaccount.MyAccountFragment;
+import frgp.utn.edu.com.parking.ui.myaccount.MyAccountViewModel;
+import frgp.utn.edu.com.parking.ui.parking.ParkingFragment;
 
 public class MainMenuActivity extends AppCompatActivity {
 

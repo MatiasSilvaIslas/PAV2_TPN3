@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_parking"
+    tools:ignore="ExtraText">
+
+<fragment
+android:id="@+id/nav_parking"
+android:name="frgp.utn.edu.com.parking.ui.parking.ParkingFragment"
+android:label="@string/menu_parking"
+tools:layout="@layout/fragment_parking" />
+
+<fragment
+android:id="@+id/nav_myaccount"
+android:name="frgp.utn.edu.com.parking.ui.myaccount.MyAccountFragment"
+android:label="@string/menu_myaccount"
+tools:layout="@layout/fragment_myaccount" />
+    </navigation>

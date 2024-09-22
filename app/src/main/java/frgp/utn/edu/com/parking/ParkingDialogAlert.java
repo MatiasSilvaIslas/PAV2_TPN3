@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.utn.parkingcontrol.ui.parking.ParkingFragment;
+import frgp.utn.edu.com.parking.ui.parking.ParkingFragment;
 
 public class ParkingDialogAlert  {
 

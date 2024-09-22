@@ -15,14 +15,13 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.utn.parkingcontrol.AdminSQLiteOpenHelper;
-import com.utn.parkingcontrol.Parking;
-import com.utn.parkingcontrol.ParkingAdapter;
-import com.utn.parkingcontrol.ParkingDialogAlert;
-import com.utn.parkingcontrol.PutExtraConst;
-import com.utn.parkingcontrol.R;
-import com.utn.parkingcontrol.User;
-import com.utn.parkingcontrol.databinding.FragmentParkingBinding;
+import frgp.utn.edu.com.parking.AdminSQLiteOpenHelper;
+import frgp.utn.edu.com.parking.Parking;
+import frgp.utn.edu.com.parking.ParkingAdapter;
+import frgp.utn.edu.com.parking.ParkingDialogAlert;
+import frgp.utn.edu.com.parking.PutExtraConst;
+import frgp.utn.edu.com.parking.User;
+import frgp.utn.edu.com.parking.databinding.FragmentParkingBinding;
 
 import java.util.ArrayList;
 
