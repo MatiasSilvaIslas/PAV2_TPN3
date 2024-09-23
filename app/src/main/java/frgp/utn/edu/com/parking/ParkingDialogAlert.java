@@ -50,14 +50,11 @@ public class ParkingDialogAlert  {
                     registro.put("matricula", matricula);
                     registro.put("tiempo", tiempo);
                     registro.put("user", user.getName());
-
+                    //insert en la BD
                     db.insert("parkings", null, registro);
-
-                    Toast.makeText(v.getContext(), "Datos guardados", Toast.LENGTH_SHORT).show();
-                    alertDialog.dismiss();
-                } else {
-                    Toast.makeText(v.getContext(), "Debes llenar Matricula y Tiempo", Toast.LENGTH_SHORT).show();
-                }
+                    //muestro por pantalla que lo guardo
+                    Toast.makeText(v.getContext(), "Datos guardados", Toast.LENGTH_SHORT).show(); alertDialog.dismiss();
+                } else { Toast.makeText(v.getContext(), "Debes llenar Matricula y Tiempo", Toast.LENGTH_SHORT).show(); }
                 db.close();
             }
         });

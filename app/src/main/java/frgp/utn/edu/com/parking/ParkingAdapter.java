@@ -19,6 +19,7 @@ public class ParkingAdapter extends ArrayAdapter<Parking> {
 
     @NonNull
     @Override
+    //Muestreo de Parkings
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         View listitemView = convertView;
